@@ -44,7 +44,7 @@ const WATCHLIST = [
   { ticker: "TSLA", name: "Tesla Inc." },
   { ticker: "AMZN", name: "Amazon.com Inc." },
   { ticker: "NVDA", name: "NVIDIA Corp." },
-    { ticker: "SOYBEAN (ZS)", name: "SOYBEAN.CAPITALCOM" },
+  { ticker: "SOYBEAN (ZS)", name: "SOYBEAN.CAPITALCOM" },
 ];
 
 const REFRESH_SECONDS = 20; // well within Finnhub's 60 calls/min free limit (6 tickers x 3/min = 18/min)
